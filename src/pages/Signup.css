@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.signup-btn{
+    --background: #fff;
+    width: 100%;
+    --font-weight: 500;
+}
+.signup-content{
+    --background: #5C7f83;
+    display: flex;
+    justify-content: center;
+}
+.signup-logo{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0 0 0;
+}
+.signup-ionImg{
+    width: 150px;
+}
+.signup-grid{
+    padding: 0 30px 0 30px;
+}
+.signup-col{
+    display: flex;
+    justify-content: center;
+}
+.signup-input{
+    border-bottom: solid 1px #fff;
+    --background: none;
+}

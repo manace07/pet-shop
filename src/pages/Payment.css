@@ -1,0 +1,24 @@
+.container {
+    padding: 16px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .total {
+    margin-top: 16px;
+    text-align: center;
+  }
+  
+  .payment-form {
+    margin-top: 16px;
+  }
+  
+  .ion-button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+  

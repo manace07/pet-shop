@@ -1,0 +1,96 @@
+.home-logo {
+  width: 25px;
+  border-radius: 100%;
+}
+
+.highlight-card {
+  background-color: #ffcc80;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+.highlight-card:hover{
+  background-color: #fff3e0;
+}
+
+.section-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #000;
+  line-height: 4;
+}
+
+.home-card {
+  --background: #fff3e0;
+  height: 150px;
+  width: 100%;
+  margin: 0;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.home-cardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-card img {
+  width: 100px;
+  height: 70px;
+  display: flex;
+}
+
+.home-page, .home-toolbar{
+  --background: #fff;
+  border: none;
+}
+
+.home-icon{
+  /* width: 25px; */
+  color: #ffcc80;
+}
+.home-content{
+  --background: #fff;
+}
+.home-search{
+  --background: none;
+  color: #000;
+  border: 1px solid #ffcc80;
+  border-radius: 10px;
+  margin: 10px 0 10px 0; 
+  padding: 0 10px 0 10px;
+}
+.scrollable-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 100%;
+  margin: 0;
+  display: inline-block;
+}
+
+.scrollable-container > * {
+  display: inline-block;
+}
+.img-food{
+  width: 80px;
+}
+.home-row{
+  display: flex;
+  align-items: center;
+}
+.home-text{
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.home-card:hover{
+  transform: scale(1.05);
+  --background: #ffcc80;
+}
+
+

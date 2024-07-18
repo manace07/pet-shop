@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-content {
+  --background: #5C7f83;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.main-ionImg {
+  width: 250px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ion-router-link.ios.ion-activatable {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+ion-router-link.ios.ion-activatable.forgot-password {
+  --color: #000;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.main-btn {
+  --background: #fff;
+  width: 200px !important;
+  --font-weight: 500;
+}
+
+.img {
+  width: 100% !important;
+}
+

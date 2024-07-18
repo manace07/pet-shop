@@ -1,0 +1,23 @@
+.container {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+  }
+  
+  .header {
+    padding: 20px;
+  }
+  
+  .header h1 {
+    color: #fff;
+    margin: 0;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  .list-cart, .item-cart{
+    --background: #fff;
+    background: #fff;
+    color: black;
+  }
